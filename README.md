@@ -14,6 +14,8 @@ The possibilities should feel as big as the ones offered by your regular compute
 You’ll be able to test your projects on a real ion trap quantum computer provided by IonQ (which [shoots lasers at individual atoms to compute](https://ionq.com/technology)).
 *Remember that current devices are still NISQ, and noise can overtake the computation really fast. We recommend you experiment with circuits that use under a few dozen two-qubit gates.*
 
+You can develop your project using any language supported by Azure Quantum: Q#, Qiskit, or Cirq.
+
 ## Using Azure Quantum
 You should have received an invite to join quantum workspace https://portal.azure.com/52f51314-00bb-49b7-a28d-0b0a4be6d1c9. Join it, and use that workspace’s information to connect to Azure from the environment you’re using to work with the QDK:
 * Subscription ID: b1d7f7f8-743f-458e-b3a0-3e09734d716d
@@ -54,3 +56,19 @@ Government officials and Microsoft employees are not eligible to participate in 
 For the general rules on eligibility and hackathon participation, please refer to the [official rules](http://iquhack.mit.edu/).
 
 ## Resources
+
+### Microsoft Quantum Development Kit installation
+
+For this Hackathon, you have several options of setting up the QDK:
+
+* local setup: you'll need the [standalone QDK](https://docs.microsoft.com/en-us/azure/quantum/install-command-line-qdk), and possibly (depending on what kind of project you decide to do) integration with [Q# Jupyter Notebooks](https://docs.microsoft.com/en-us/azure/quantum/install-jupyter-qkd) and/or with [Python](https://docs.microsoft.com/en-us/azure/quantum/install-python-qdk).
+* qBraid: you can use qBraid virtual environment to develop your project. Here are the tutorials on how to [use Q# with qBraid](https://www.youtube.com/watch?v=E5JH1YfqSos) and [submit Azure Quantum jobs with qBraid](https://www.youtube.com/watch?v=WLAAqsqlYb8).
+* Azure Portal: you can use the hosted notebooks experience to run code directly from Azure Portal.
+
+### Documentation and tutorials
+
+* [Azure Quantum and QDK documentation](https://docs.microsoft.com/quantum).
+* [The Quantum Katas](https://github.com/Microsoft/QuantumKatas/) - a collection of tutorials and practice problems.
+* Microsoft Learn learing path ["Quantum computing foundations"](https://docs.microsoft.com/learn/paths/quantum-computing-fundamentals/).
+* [Q# developer blog](https://devblogs.microsoft.com/qsharp/).
+* Azure Fridays episode [Quantum programming with Q# and running on hardware with Azure Quantum](https://www.youtube.com/watch?v=c9Df90CVHkc) shows the end-to-end quantum software development process with the QDK tools.
