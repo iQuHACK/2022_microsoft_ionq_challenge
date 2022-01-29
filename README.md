@@ -28,9 +28,21 @@ You can develop your project using any language supported by Azure Quantum: Q#, 
 ## Using Azure Quantum
 You should have received an invite to join quantum workspace https://portal.azure.com/52f51314-00bb-49b7-a28d-0b0a4be6d1c9. Join it, and use that workspace’s information to connect to Azure from the environment you’re using to work with the QDK:
 * Subscription ID: b1d7f7f8-743f-458e-b3a0-3e09734d716d
-* Workspace ID: aq-hackathon-01
-* Storage account: aqhackathon01
+* Resource group: aq-hackathons
+* Workspace name: aq-hackathon-01
 * Location: eastus
+
+You can use it from Python by using the `azure-quantum` package as follows:
+
+```python
+from azure.quantum import Workspace
+workspace = Workspace (
+    subscription_id = "b1d7f7f8-743f-458e-b3a0-3e09734d716d",
+    resource_group = "aq-hackathons",
+    name = "aq-hackathon-01",
+    location = "eastus"
+)
+```
 
 Don't wait until the last moment to submit your programs! IonQ systems operate on a queue system. If you submit a program, it may take a few hours to complete. If you want to make sure you get your results back by Sunday morning, make sure to submit them by the end of day on Saturday.
 
