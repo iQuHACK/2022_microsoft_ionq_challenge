@@ -28,8 +28,8 @@ You can develop your project using any language supported by Azure Quantum: Q#, 
 ## Using Azure Quantum
 You should have received an invite to join quantum workspace https://portal.azure.com/52f51314-00bb-49b7-a28d-0b0a4be6d1c9. Join it, and use that workspace’s information to connect to Azure from the environment you’re using to work with the QDK:
 * Subscription ID: b1d7f7f8-743f-458e-b3a0-3e09734d716d
+* Resource group: aq-hackathons
 * Workspace name: aq-hackathon-01
-* Storage account: aqhackathon01
 * Location: eastus
 
 You can use it from Python by using the `azure-quantum` package as follows:
