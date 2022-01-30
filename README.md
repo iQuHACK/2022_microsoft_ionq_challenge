@@ -113,14 +113,6 @@ Even for the IonQ device we need an AER simulator available in QisKit library.
 
 
 
-x-special/nautilus-clipboard
-copy
-file:///home/akhilesh/Pictures/Screenshot%20from%202022-01-30%2021-22-15.png
-
-
-[alt text](x-special/nautilus-clipboard
-copy
-file:///home/akhilesh/Pictures/Screenshot%20from%202022-01-30%2021-22-15.png)
 
 
 
