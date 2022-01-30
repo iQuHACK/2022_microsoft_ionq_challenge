@@ -1,4 +1,3 @@
-```
 # **Q-TETRIS**
 
 **Description:**
@@ -35,4 +34,3 @@ For example – [I, I, I] and [I, Ry, Rx, X, X, Rz] do make |0\> with 100% proba
 ![](RackMultipart20220130-4-x7mere_html_512454448447c759.gif)
 
 **Note: Here 100% probability is observed through quantum simulator not actual quantum computer.**
-```
